@@ -1,0 +1,9 @@
+# OSX
+#
+.DS_Store
+
+#**/.DS_Store
+#As long as you don't include a slash, it is matched against the file name in all directories. (from here)
+#https://stackoverflow.com/questions/18393498/gitignore-all-the-ds-store-files-in-every-folder-and-subfolder/38797342
+#git rm ./*.DS_Store - remove all .DS_Store from git
+#find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
